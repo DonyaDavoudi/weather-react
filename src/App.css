@@ -1,0 +1,155 @@
+#background {
+  background-color: #48484a;
+}
+.box {
+  border: 1px solid black;
+  width: 90vh;
+  height: 70vh;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: 5px;
+  background-color: rgb(189, 188, 188);
+}
+
+.col {
+  text-align: center;
+}
+.input-group {
+  padding-top: 25px;
+}
+.searchbar {
+  width: 90%;
+  border-radius: 5px;
+  border: 3px solid #48484a;
+}
+.searchbar:focus {
+  outline: none;
+  box-shadow: 0px 0px 9px 0px #48484a;
+}
+.button {
+  background-color: white;
+  border: 3px solid #48484a;
+  border-radius: 5px;
+  border-left: 0;
+  padding: 0px 19px;
+}
+.button:hover {
+  background-color: #48484a;
+  color: white;
+  transition: all 150ms ease-in-out;
+}
+.maincity {
+  text-align: center;
+  padding-top: 80px;
+}
+.maincitynamepin {
+  font-size: 40px;
+  font-weight: 500;
+}
+#maincityname {
+  padding-left: 4px;
+  text-transform: capitalize;
+}
+.maincitytemp {
+  padding-left: 70px;
+  font-size: 20px;
+  text-align: left;
+}
+.pin {
+  color: #48484a;
+}
+
+.maininfo {
+  text-align: left;
+  font-size: 20px;
+  padding-top: 25px;
+}
+
+#description::first-letter {
+  text-transform: capitalize;
+}
+#mainicon {
+  padding-bottom: 33px;
+}
+#forecast {
+  padding-top: 30px;
+}
+.day {
+  font-size: 30px;
+}
+.temp {
+  font-size: 16px;
+}
+#last-update {
+  font-size: 17px;
+  padding-top: 35px;
+  text-align: center;
+}
+#moreInfo {
+  text-align: center;
+  font-family: monospace;
+  margin-top: 20px;
+  color: white;
+}
+#srcLink {
+  color: #ec6e4c;
+}
+@media (max-width: 768px) {
+  .box {
+    width: 80vh;
+    height: 75vh;
+  }
+  .button {
+    padding: 0px 10px;
+  }
+  .maincitynamepin {
+    font-size: 30px;
+  }
+  #maincityname {
+    font-size: 30px;
+  }
+  .maincitytemp {
+    font-size: 20px;
+    padding-left: 45px;
+  }
+  .maininfo {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  .day {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .box {
+    width: 45vh;
+    height: 110vh;
+    display: flex;
+    justify-self: center;
+  }
+  .button {
+    padding: 0px 5px;
+  }
+  .maincitytemp {
+    font-size: 20px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  #maincitytempnum {
+    margin-right: 5px;
+  }
+  #description {
+    margin-left: 5px;
+  }
+  .maininfo {
+    display: flex;
+    justify-content: center;
+  }
+  .humidity {
+    margin-right: 5px;
+  }
+  .wind {
+    margin-left: 5px;
+  }
+}
