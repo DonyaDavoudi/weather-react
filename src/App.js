@@ -29,7 +29,7 @@ function App() {
 
               <div className="maincitytemp">
                 <span id="maincitytempnum">19</span>
-                <p> °C </p>
+                <span> °C </span>
                 <span id="description">Clear</span>
               </div>
             </div>
