@@ -29,7 +29,7 @@ function App() {
 
               <div className="maincitytemp">
                 <span id="maincitytempnum">19</span>
-                <a> °C </a>
+                <p> °C </p>
                 <span id="description">Clear</span>
               </div>
             </div>
@@ -60,6 +60,7 @@ function App() {
           id="srcLink"
           href="https://github.com/izeofdonya/Weather-App"
           target="_blank"
+          rel="noreferrer"
         >
           Open-source code
         </a>
