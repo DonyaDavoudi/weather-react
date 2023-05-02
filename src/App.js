@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import FormattedDate from "./FormattedDate";
 import "./App.css";
 
 function App(props) {
@@ -12,7 +13,7 @@ function App(props) {
       description: response.data.weather[0].description,
       city: response.data.name,
       iconUrl: "http://openweathermap.org/img/wn/01d@2x.png",
-      date: "Sunday 10:00",
+      date: new Date(response.data.dt * 1000),
       ready: true,
     });
   }
@@ -69,7 +70,10 @@ function App(props) {
             </div>
             <div id="forecast"></div>
             <div id="last-update">
-              Last updated: <span id="date">{weatherData.date}</span>
+              Last updated:{" "}
+              <span id="date">
+                <FormattedDate date={weatherData.date} />
+              </span>
             </div>
           </div>
         </div>
