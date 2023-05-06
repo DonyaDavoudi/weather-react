@@ -74,6 +74,7 @@ function App(props) {
       </div>
     );
   } else {
+    search();
     return (
       <div className="App">
         <div className="box">
