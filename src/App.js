@@ -14,7 +14,7 @@ function App(props) {
       wind: response.data.wind.speed,
       description: response.data.weather[0].description,
       city: response.data.name,
-      iconUrl: "http://openweathermap.org/img/wn/01d@2x.png",
+      iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       date: new Date(response.data.dt * 1000),
       ready: true,
     });
