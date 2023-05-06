@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherForecast from "./WeatherForecast";
 
 export default function WeatherInfo(props) {
   return (
@@ -34,7 +35,9 @@ export default function WeatherInfo(props) {
           <img id="mainicon" src={props.data.iconUrl} alt="" />
         </div>
       </div>
-      <div id="forecast"></div>
+      <div id="forecast">
+        <WeatherForecast />
+      </div>
       <div id="last-update">
         Last updated:{" "}
         <span id="date">

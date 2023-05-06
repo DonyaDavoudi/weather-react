@@ -69,7 +69,7 @@ function App(props) {
           >
             Open-source code
           </a>
-          by Donya Davoudi
+          <span> by Donya Davoudi</span>
         </div>
       </div>
     );
