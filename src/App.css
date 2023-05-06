@@ -91,6 +91,12 @@
 #srcLink {
   color: #ec6e4c;
 }
+.loader-spinner {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media (max-width: 768px) {
   .box {
     width: 80vh;
