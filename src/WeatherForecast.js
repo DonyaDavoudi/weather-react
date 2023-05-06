@@ -1,10 +1,11 @@
 import React from "react";
+import "./App.css";
 
 export default function WeatherForecast() {
   return (
     <div class="col futuredays">
-      <div class="day">Saturday</div>
-      <div class="icon">
+      <div className="day">Saturday</div>
+      <div className="icon">
         <img
           src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
           width="60"
