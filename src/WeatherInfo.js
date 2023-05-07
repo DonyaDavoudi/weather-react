@@ -36,7 +36,7 @@ export default function WeatherInfo(props) {
         </div>
       </div>
       <div id="forecast">
-        <WeatherForecast />
+        <WeatherForecast coordinates={props.data.coordinates} />
       </div>
       <div id="last-update">
         Last updated:{" "}
