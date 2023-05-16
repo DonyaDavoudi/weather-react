@@ -114,9 +114,7 @@ function App(props) {
             </div>
           </div>
         </div>
-        <div id="moreInfo">
-          <span>by Donya Davoudi</span>
-        </div>
+        <div id="moreInfo"></div>
       </div>
     );
   }
