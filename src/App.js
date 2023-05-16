@@ -117,7 +117,7 @@ function App(props) {
         <div id="moreInfo">
           <a
             id="srcLink"
-            href="https://github.com/izeofdonya/weather-react"
+            href="https://github.com/izeofdonya/"
             target="_blank"
             rel="noreferrer"
           >
