@@ -115,14 +115,6 @@ function App(props) {
           </div>
         </div>
         <div id="moreInfo">
-          <a
-            id="srcLink"
-            href="https://github.com/izeofdonya/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Open-source code
-          </a>
           <span>by Donya Davoudi</span>
         </div>
       </div>
