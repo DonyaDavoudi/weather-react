@@ -114,7 +114,12 @@ function App(props) {
             </div>
           </div>
         </div>
-        <div id="moreInfo"></div>
+        <div id="moreInfo">
+          <a href="https://github.com/izeofdonya/weather-react">
+            Open source code
+          </a>
+          <span>by Donya Davoudi</span>
+        </div>
       </div>
     );
   }
