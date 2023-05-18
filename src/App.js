@@ -64,7 +64,7 @@ function App(props) {
         <div id="moreInfo">
           <a
             id="srcLink"
-            href="https://github.com/izeofdonya/Weather-App"
+            href="https://github.com/izeofdonya/weather-react"
             target="_blank"
             rel="noreferrer"
           >
@@ -115,8 +115,13 @@ function App(props) {
           </div>
         </div>
         <div id="moreInfo">
-          <a id="srclink" href="https://github.com/izeofdonya/weather-react">
-            Open source code
+          <a
+            id="srcLink"
+            href="https://github.com/izeofdonya/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
           </a>
           <span>by Donya Davoudi</span>
         </div>
