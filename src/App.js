@@ -115,7 +115,7 @@ function App(props) {
           </div>
         </div>
         <div id="moreInfo">
-          <a href="https://github.com/izeofdonya/weather-react">
+          <a id="srclink" href="https://github.com/izeofdonya/weather-react">
             Open source code
           </a>
           <span>by Donya Davoudi</span>
